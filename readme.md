@@ -34,13 +34,13 @@ This plugin will make automatically make `post.url_image` available in your temp
 If you are using [hexo-generator-json-content](https://github.com/alexbruno/hexo-generator-json-content), it will automatically add the `url_image` property to `content.json` when you run `hexo generate` and when you __exit__ `hexo server`.
 ## Configuration
 ### URL
-For this plugin to work correctly, you must set `image_server_url` to your URL in `_config.yml`. if you use a image cloud server with url //o7m387gr6.bkt.clouddn.com/,  set it like this:
+For this plugin to work correctly, you must set `image_server_url` to your URL in `_config.yml`. if you use a image cloud server with url //some.bkt.clouddn.com/,  set it like this:
 
 `_config.yml`
 
     ...
     # URL
-    image_server_url: http://o7m387gr6.bkt.clouddn.com/
+    image_server_url: http://some.bkt.clouddn.com/
     ...
 
 ### [hexo-generator-json-content](https://github.com/alexbruno/hexo-generator-json-content) (!!!Experiment)
