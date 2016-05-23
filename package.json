@@ -1,0 +1,29 @@
+{
+  "name": "hexo-url-image",
+  "version": "0.0.1",
+  "description": "a hexo plugin let you can define image url in post md and refer it in templates",
+  "main": "index.js",
+  "dependencies": {
+    "hexo-fs": "^0.1.5",
+    "yaml-front-matter": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roybein/hexo-url-image.git"
+  },
+  "keywords": [
+    "hexo",
+    "url",
+    "image"
+  ],
+  "author": "roybein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roybein/hexo-url-image/issues"
+  },
+  "homepage": "https://github.com/roybein/hexo-url-image#readme"
+}
