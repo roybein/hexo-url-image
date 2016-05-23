@@ -1,6 +1,6 @@
 {
   "name": "hexo-url-image",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "a hexo plugin let you can define image url in post md and refer it in templates",
   "main": "index.js",
   "dependencies": {
