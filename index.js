@@ -9,7 +9,7 @@ hexo.extend.filter.register('before_post_render', function(data) {
 	var url_image = yaml.loadFront(data.raw).url_image;
 	if (url_image){
 		var url_thumbnail = yaml.loadFront(data.raw).url_thumbnail;
-		data.url_image = imagesUrl + url_image;
+		data.url_image = (imagesUrl) ? imagesUrl + url_image : url_image;
 		if(url_thumbnail){
 			data.url_thumbnail = imagesUrl + url_thumbnail;
 		}
